@@ -1,11 +1,14 @@
 @tailwind utilities;
+@import "tailwindcss";
 
 html, body {
   margin: 0;
+  font-family: "Paperozi", sans-serif;
+  font-weight: 300;
 }
 
 @theme {
-  --font-pretendard: "Paperozi", 400;
+  --font-paper: "Paperozi", sans-serif;
   --color-background : #3A3F4C;
   --color-wh: #FFFFFF;
   --color-primary-300: #2692DF;
