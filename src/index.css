@@ -9,9 +9,10 @@ html, body {
 
 @theme {
   --font-paper: "Paperozi", sans-serif;
-  --color-background : #3A3F4C;
-  --color-wh: #FFFFFF;
-  --color-primary-300: #2692DF;
+  --font-kkubul: "KkuBulLim", sans-serif;
+  --color-background : #1d2023;
+  --color-wh: #ffffff;
+  --color-primary-300: #185d8e;
 }
 
 
@@ -26,5 +27,12 @@ html, body {
   font-family: 'Paperozi';
   src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2408-3@1.0/Paperlogy-4Regular.woff2') format('woff2');
   font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KkuBulLim';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-1@1.0/BMkkubulimTTF-Regular.woff2') format('woff2');
+  font-weight: normal;
   font-display: swap;
 }
